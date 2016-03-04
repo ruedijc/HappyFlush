@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout android:id="@+id/RelativeLayout01" 
+    android:layout_width="fill_parent" 
+    android:layout_height="fill_parent"
+    android:background="@drawable/radialback"
+    android:orientation="vertical" 
+    xmlns:android="http://schemas.android.com/apk/res/android">
+    
+
+    <Button
+        android:id="@+id/flush_button"
+        android:layout_width="wrap_content" 
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"
+        android:background="@drawable/android_button"
+        android:onClick="onButtonClicked"
+        android:padding="10dp" />
+        
+<!-- 
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+    
+        android:id="@+id/btnZero"
+        android:layout_width="129dp"
+        android:layout_height="127dp"
+        android:layout_gravity="center"
+        android:layout_margin="100dp"
+        android:layout_weight="0.11"
+        android:text="Flush" />
+
+ -->  
+    
+</RelativeLayout>
