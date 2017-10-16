@@ -1,4 +1,6 @@
 #README
 
-This is a simple app to demonstrate audio clip playback on Android.
+This is a simple app from the olden days to demonstrate audio clip playback on Android.
+
+Workflow: Eclipse
 
